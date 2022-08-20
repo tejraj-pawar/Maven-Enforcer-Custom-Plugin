@@ -1,7 +1,8 @@
 # Maven-Enforcer-Custom-Plugin
 This plugin will raise an exception if there exist more than one versions of specific dependency to avoid diamond dependency conflict.
 
-## Build and Deploy above plugin in artifactory and you below plugin syntax in your pom to access it:
+### Build and Deploy above plugin in artifactory and you below plugin syntax in your pom to access it:
+
 <plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>track-commons-version-maven-plugin</artifactId>
