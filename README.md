@@ -4,7 +4,7 @@ This plugin will raise an exception if there exist more than one versions of spe
 ##### Build and Deploy above plugin in artifactory and use below plugin syntax in your pom to access it:
 ```
 <plugin>
-  <groupId>org.apache.maven.plugins</groupId>
+  <groupId>com.finicity.fidi</groupId>
   <artifactId>track-commons-version-maven-plugin</artifactId>
   <version>1.0-SNAPSHOT</version>
   <executions>
